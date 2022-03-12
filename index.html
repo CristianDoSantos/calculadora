@@ -12,34 +12,34 @@
     <div class="container">
         <div class="containerCalc">
             <h4 id="title">Calculadora Simples</h4>
-            <p id="display">0</p>
+            <p id="display"></p>
             <table>
                 <tr>
-                    <td colspan="2"><button class="btn ac"><i class="fa-solid fa-a"></i><i class="fa-solid fa-c"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-delete-left"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-divide"></i></button></td>     
+                    <td colspan="2"><button class="btn ac" onclick="resetar()"><i class="fa-solid fa-a"></i><i class="fa-solid fa-c"></i></button></td>
+                    <td><button class="btn" onclick="apagar()"><i class="fa-solid fa-delete-left"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('/')"><i class="fa-solid fa-divide"></i></button></td>     
                 </tr>
                 <tr>
-                    <td><button class="btn"><i class="fa-solid fa-7"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-8"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-9"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-xmark"></i>                    </button></td>     
+                    <td><button class="btn" onclick="numero_operacao('7')"><i class="fa-solid fa-7"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('8')"><i class="fa-solid fa-8"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('9')"><i class="fa-solid fa-9"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('*')"><i class="fa-solid fa-xmark"></i>                    </button></td>     
                 </tr>
                 <tr>
-                    <td><button class="btn"><i class="fa-solid fa-4"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-5"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-6"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-plus"></i>                    </button></td>     
+                    <td><button class="btn" onclick="numero_operacao('4')"><i class="fa-solid fa-4"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('5')"><i class="fa-solid fa-5"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('6')"><i class="fa-solid fa-6"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('+')"><i class="fa-solid fa-plus"></i>                    </button></td>     
                 </tr>
                 <tr>
-                    <td><button class="btn"><i class="fa-solid fa-1"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-2"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-3"></i></button></td>
-                    <td><button class="btn"><i class="fa-solid fa-minus"></i></button></td>     
+                    <td><button class="btn" onclick="numero_operacao('1')"><i class="fa-solid fa-1"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('2')"><i class="fa-solid fa-2"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('3')"><i class="fa-solid fa-3"></i></button></td>
+                    <td><button class="btn" onclick="numero_operacao('-')"><i class="fa-solid fa-minus"></i></button></td>     
                 </tr>
                 <tr>
-                    <td><button class="btn"><i class="fa-solid fa-0"></i></button></td>
-                    <td colspan="3"><button class="btn equal"><i class="fa-solid fa-equals"></i></button></td>    
+                    <td><button class="btn" onclick="numero_operacao('0')"><i class="fa-solid fa-0"></i></button></td>
+                    <td colspan="3"><button class="btn equal" onclick="calcular()"><i class="fa-solid fa-equals"></i></button></td>    
                 </tr>
             </table>
 
