@@ -7,7 +7,7 @@
     padding: 0;
 }
 .container{
-    background-color: rgb(59, 2, 112);
+    background-color: #242323;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -43,6 +43,12 @@
     cursor: pointer;
     background-color: #242323;
     color: #e0e0e0;
+}
+.ac{
+    width: 6.3rem;
+}
+.equal{
+    width: 9.6rem;
 }
 .btn:hover{
     background-color: #85dcf7;
