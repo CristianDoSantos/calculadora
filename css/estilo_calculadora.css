@@ -7,7 +7,7 @@
     padding: 0;
 }
 .container{
-    background-color: #242323;
+    background-image: url("../assets/fundo.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;
